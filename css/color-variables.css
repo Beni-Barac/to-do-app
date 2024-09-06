@@ -1,0 +1,32 @@
+:root {
+    /* background-colors*/
+    --clr-lists-nav-bar-background: rgba(103, 181, 169, 0.702);
+    --clr-main-container-background: rgba(112, 123, 183, 0.721);
+    
+    --clr-add-task-component-background: rgba(255, 0, 0, 0.279);
+    --clr-task-list-component-background: rgba(255, 0, 0, 0.243);
+
+    --clr-add-list-button-background: pink;
+    --clr-task-description-background: pink;
+    --clr-add-task-button-background: pink;
+    --clr-current-list-name-background: pink;
+
+    --clr-task-background: violet;
+    --clr-task-description-background: violet;
+    --clr-remove-task-button-background: indigo;
+
+
+    /* font-colors */
+    --clr-lists-heading-color: yellow;
+    --clr-list-items-color: purple;
+    --clr-add-list-button-color: purple;
+
+    --clr-app-title-color: green;
+    --clr-add-task-label-color: green;
+    --clr-add-task-description-color: rgb(215, 154, 139);
+    --clr-add-task-button-color: green;
+
+    --clr-current-list-color: green;
+    --clr-task-description-color: green;
+    --clr-remove-task-button-color: green;
+}

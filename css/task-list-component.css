@@ -1,0 +1,29 @@
+#task-list-component {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--clr-task-list-component-background);
+}
+
+#current-list {
+    font-size: 1.5rem;
+    color: var(--clr-current-list-color);
+}
+
+.task {
+    background-color: var(--clr-task-background);
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 1fr;
+}
+
+.task-checkbox {
+    grid-column: 1;
+}
+
+.task-description {
+    grid-column: 2;
+}
+
+.remove-task-button {
+    grid-column: 4;
+}
+

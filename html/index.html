@@ -3,25 +3,36 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" src="color-variables.css">
-        <link rel="stylesheet" src="main-styles.css">
-        <link rel="stylesheet" src="add-task-component.css">
-        <link rel="stylesheet" src="task-list-component.css">
+        <link rel="stylesheet" href="../css/color-variables.css">
+        <link rel="stylesheet" href="../css/main-styles.css">
+        <link rel="stylesheet" href="../css/lists-nav-bar.css">
+        <link rel="stylesheet" href="../css/add-task-component.css">
+        <link rel="stylesheet" href="../css/task-list-component.css">
         <title>To-Do app</title>
     </head>
     <body>
-        <h1 id="app-title">To-Do App</h1>
-        <div id="main-container">
-            <form id="add-task-container">
-                <input id="task-description">
-                <button id="add-task-button" type="submit"></button>
-            </form>
-            <div id="task-list-container">
-                <h3 id="current-list-name"></h3>
-                <div id="task"></div>
-            </div>
-        </div>
         <div id="lists-nav-bar">
+            <h2>Lists</h2>
+            <ul id="lists">
+                <li class="list">list</li>
+            </ul>
+            <button id="add-list-button" type="button">Add List</button>
+        </div>
+        <div id="main-container">
+            <h1 id="app-title">To-Do App</h1>
+            <form id="add-task-component">
+                <label for="add-task-description">Add Task Description
+                <input id="add-task-description" maxlength="25" type="text" placeholder="e.g. Cleaning my room"></label>
+                <button id="add-task-button" type="submit">Add Task</button>
+            </form>
+            <div id="task-list-component">
+                <h3 id="current-list">list</h3>
+                <div class="task">
+                    <input class="task-checkbox" type="checkbox"></input>
+                    <p class="task-description">Clean House</p>
+                    <button class="remove-task-button" type="button">Remove Task</button>
+                </div>
+            </div>
         </div>
     </body>
 </html>
