@@ -8,16 +8,27 @@
         <link rel="stylesheet" href="../css/lists-nav-bar.css">
         <link rel="stylesheet" href="../css/add-task-component.css">
         <link rel="stylesheet" href="../css/task-list-component.css">
+        <link rel="stylesheet" href="../css/add-list-pop-up.css">
         <title>To-Do app</title>
     </head>
     <body>
         <div id="lists-nav-bar">
             <h2>Lists</h2>
-            <ul id="lists">
-                <li class="list">list</li>
-            </ul>
+            <label for="lists">Choose a list:</label>
+            <select id="lists" name="lists">
+                <option value="list1">Default List</option>
+            </select>
             <button id="add-list-button" type="button">Add List</button>
         </div>
+
+        <div id="add-list-pop-up" class="hidden">
+            <h2>Add List</h2>
+            <label for="add-list-name">List Name
+            <input id="add-list-name" maxlength="25" type="text" placeholder="e.g. Work"></label>
+            <button id="add-list-confirm-button" type="button">Add List</button>
+            <button id="add-list-cancel-button" type="button">Exit</button>
+        </div>
+
         <div id="main-container">
             <h1 id="app-title">To-Do App</h1>
             <form id="add-task-component">
@@ -25,6 +36,7 @@
                 <input id="add-task-description" maxlength="25" type="text" placeholder="e.g. Cleaning my room"></label>
                 <button id="add-task-button" type="submit">Add Task</button>
             </form>
+
             <div id="task-list-component">
                 <h3 id="current-list">list</h3>
                 <div class="task">
@@ -34,5 +46,8 @@
                 </div>
             </div>
         </div>
+        
+        <script src="../js/handle-task.js"></script>
+        <script src="../js/new-list.js"></script>
     </body>
 </html>
