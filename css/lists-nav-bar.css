@@ -9,6 +9,10 @@
     align-items: flex-start;
 }
 
+#lists-nav-bar label {
+    margin-bottom: 20px;
+}
+
 #lists-nav-bar h2 {
     font-size: 2rem;
     color: var(--clr-lists-heading-color);

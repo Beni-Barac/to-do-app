@@ -3,8 +3,8 @@
     --clr-lists-nav-bar-background: rgba(103, 181, 169, 0.702);
     --clr-main-container-background: rgba(112, 123, 183, 0.721);
     
-    --clr-add-task-component-background: rgba(255, 0, 0, 0.279);
-    --clr-task-list-component-background: rgba(255, 0, 0, 0.243);
+    --clr-add-task-component-background: rgb(91, 134, 190);
+    --clr-task-list-component-background: rgb(91, 134, 190);
 
     --clr-add-list-button-background: pink;
     --clr-task-description-background: pink;
@@ -21,12 +21,12 @@
     --clr-list-items-color: purple;
     --clr-add-list-button-color: purple;
 
-    --clr-app-title-color: green;
-    --clr-add-task-label-color: green;
+    --clr-app-title-color: black;
+    --clr-add-task-label-color: black;
     --clr-add-task-description-color: rgb(215, 154, 139);
-    --clr-add-task-button-color: green;
+    --clr-add-task-button-color: black;
 
-    --clr-current-list-color: green;
-    --clr-task-description-color: green;
-    --clr-remove-task-button-color: green;
+    --clr-current-list-color: black;
+    --clr-task-description-color: black;
+    --clr-remove-task-button-color: black;
 }

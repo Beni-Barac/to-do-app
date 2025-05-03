@@ -2,17 +2,23 @@
     display: flex;
     flex-direction: column;
     background-color: var(--clr-task-list-component-background);
+    border: 1px solid;
+    min-width: 310px;
 }
 
 #current-list {
     font-size: 1.5rem;
+    letter-spacing: 3px;
     color: var(--clr-current-list-color);
+    padding-left: 10px; 
 }
 
 .task {
     background-color: var(--clr-task-background);
     display: grid;
     grid-template-columns: 20px 1fr 1fr 1fr;
+    border: 1px;
+    border-style: solid none none none;
 }
 
 .task-checkbox {
